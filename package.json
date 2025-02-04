@@ -4,9 +4,9 @@
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name BLACK PANDA",
-    "stop": "pm2 stop BLACK PANDA",
-    "restart": "pm2 restart BLACK PANDA"
+    "start": "pm2 start index.js --deep-monitoring --attach --name 'BLACK PANDA'",
+    "stop": "pm2 stop 'BLACK PANDA'",
+    "restart": "pm2 restart 'BLACK PANDA'"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.9",
